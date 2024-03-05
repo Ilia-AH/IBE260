@@ -1,5 +1,5 @@
 # IBE260
-- Kurs material/øvingsrepos for IBE260 HiMolde
+- Kurs material/øvingsrepo for IBE260 HiMolde
 
 ENG:
-- Course material/practice for IBE260 HiMolde
+- Course material/practicerepo for IBE260 HiMolde
