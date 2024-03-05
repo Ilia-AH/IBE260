@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "bridge temp",
+  "description": "Bridge game server",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "npx tsc && node ./dist/main.js",
-    "dev": "node ./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\"",
-    "start": "node ./dist/main.js"
+    "compile": "npx tsc && node ./server/dist/main.js",
+    "dev": "node ./server/node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\"",
+    "start": "node ./server/dist/main.js"
   },
   "author": "",
   "license": "ISC",
