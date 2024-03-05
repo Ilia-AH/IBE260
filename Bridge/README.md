@@ -5,5 +5,5 @@ Obligatorisk oppgave for IBE260 Vår 2024
 ENG:
 Mandatory tasks for IBE260 Spring 2024
 - First part is server application for the cardgame Bridge
-- ~~Second part is the client side for this server~~ (Expired)
+- ~~Second part is the client side for this server~~ (Expires)
 
