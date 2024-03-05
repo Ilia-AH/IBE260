@@ -140,13 +140,13 @@ export function bidding(game: Game, bid: Bid | string) {
     return 'Invalid bid';
 }
 
-// Funksjon for å passere tur
+// Funksjon for å gå videre til neste spiller
 export function nextTurn(game: Game) {
     game.currentTurn = (game.currentTurn + 1) % game.players.length;
     return (game.players[game.currentTurn].name);
 }
 
-// Funksjon for å spille kort fra hånden, denne er ikke i bruk i oppgaven - kan dog implementeres senere
+// Funksjon for å spille kort fra hånden, denne er ikke i bruk i oppgaven - kan implementeres senere
 export function playCard(player: Player, index: number, game: Game) {
     if (index < 0 || index >= player.hand.length) {
         throw new Error('Invalid index');
